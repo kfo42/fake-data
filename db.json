@@ -1,0 +1,105 @@
+[
+    {
+      "model": "timeline_editor_api.waveform",
+      "pk": 1,
+      "fields": {
+        "name": "Bump",
+        "duration_ms": 1000,
+        "definition": "function definition(time, duration) { var t = time / duration; return Math.pow(Math.sin(Math.PI * t), 2); }"
+      }
+    },
+    {
+      "model": "timeline_editor_api.waveform",
+      "pk": 2,
+      "fields": {
+        "name": "Flat",
+        "duration_ms": 1000,
+        "definition": "function definition(time, duration) { return 1; }"
+      }
+    },
+    {
+      "model": "timeline_editor_api.situatedwaveform",
+      "pk": 1,
+      "fields": {
+        "start_time_ms": 0,
+        "waveform": 1
+      }
+    },
+    {
+      "model": "timeline_editor_api.track",
+      "pk": 1,
+      "fields": {
+        "duration": 1000,
+        "situated_waveforms": [
+          1
+        ]
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 1,
+      "fields": {
+        "name": "Front Left",
+        "short_name": "FL"
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 2,
+      "fields": {
+        "name": "Front Right",
+        "short_name": "FR"
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 3,
+      "fields": {
+        "name": "Top Left",
+        "short_name": "TL"
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 4,
+      "fields": {
+        "name": "Top Right",
+        "short_name": "TR"
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 5,
+      "fields": {
+        "name": "Back Left",
+        "short_name": "BL"
+      }
+    },
+    {
+      "model": "timeline_editor_api.hapticlocation",
+      "pk": 6,
+      "fields": {
+        "name": "Back Right",
+        "short_name": "BR"
+      }
+    },
+    {
+      "model": "timeline_editor_api.situatedtrack",
+      "pk": 1,
+      "fields": {
+        "start_time_ms": 0,
+        "haptic_location": 1,
+        "track": 1
+      }
+    },
+    {
+      "model": "timeline_editor_api.multitrack",
+      "pk": 1,
+      "fields": {
+        "duration": 1000,
+        "situated_tracks": [
+          1
+        ]
+      }
+    }
+  ]
