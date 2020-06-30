@@ -2,9 +2,16 @@
     {
       "model": "timeline_editor_api.waveform",
       "pk": 1,
-      "fields": {
+      "fields": 
         "name": "Bump",
         "duration_ms": 1000,
-      }
-    }
+      
+    },
+        {
+      "model": "timeline_editor_api.waveform",
+      "pk": 1,
+        "name": "Bump",
+        "duration_ms": 1000,
+      
+    },
 ]
