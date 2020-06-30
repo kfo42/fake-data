@@ -1,4 +1,4 @@
-[
+
     {
       "model": "timeline_editor_api.waveform",
       "pk": 1,
@@ -6,11 +6,11 @@
         "duration_ms": 1000,
       
     },
-        {
+    {
       "model": "timeline_editor_api.waveform",
       "pk": 2,
         "name": "Smooth",
         "duration_ms": 1000,
       
-    },
-]
+    }
+
