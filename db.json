@@ -1,13 +1,11 @@
-
-{ "waveform": [
+{
+  "posts": [
     {
-      "model": "timeline_editor_api.waveform",
-      "pk": 1,
-      "name": "Bump",
-      "duration_ms": 1000,
-      
+      "id": 1,
+      "title": "hello"
     }
-    
-    ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-
