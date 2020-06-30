@@ -6,13 +6,5 @@
         "name": "Bump",
         "duration_ms": 1000,
       }
-    },
-    {
-      "model": "timeline_editor_api.waveform",
-      "pk": 2,
-      "fields": {
-        "name": "Flat",
-        "duration_ms": 1000,
-      }
     }
-  ]
+]
