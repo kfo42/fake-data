@@ -4,7 +4,6 @@
       "pk": 1,
       "fields": {
         "name": "Bump",
-        "duration_ms": 1000,
         "definition": "function definition(time, duration) { var t = time / duration; return Math.pow(Math.sin(Math.PI * t), 2); }"
       }
     }
